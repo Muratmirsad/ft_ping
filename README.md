@@ -12,7 +12,7 @@
 
 ### Bonus Features
 - **`-f`**: Flood mode. Sends continuous and fast pings.
-- **`-l <num>`**: Preload mode. Prepares and sends a specified number of packets.
+- **`-l <num>`**: Preload mode. Prepares and sends a specified number of packets. (not yet developed)
 - **`-n`**: Disables DNS resolution and works directly with IP addresses.
 - **`-w <time>`**: Sets a total runtime limit for the program.
 - **`-W <time>`**: Specifies the maximum wait time for each ICMP packet response.
@@ -71,9 +71,10 @@
 ```plaintext
 .
 ├── ft_ping.h           # Header file
-├── main.c              # Main program file
-├── utils.c             # Helper functions
-├── Makefile            # Build instructions
+├── ft_ping.c           # Main program file
+├── is_valid_funcs.c    # Helper functions
+├── flags.c             # Flags
+├── Makefile            # Makefile
 └── README.md           # Project description
 ```
 
