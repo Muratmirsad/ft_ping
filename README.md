@@ -84,9 +84,3 @@
 - When the TTL value is set low, some network devices may not return a "Time Exceeded" message.
 - The `-f` flag can cause performance issues due to excessive packet sending.
 
----
-
-
-## License
-This project is licensed under the [MIT License](LICENSE).
-
